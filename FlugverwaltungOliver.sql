@@ -24,6 +24,27 @@ airline_id int unsigned not null,
 
 constraint fe_id_PK primary key(fe_id)
 );
+insert into flight_execution values(null,'2012-06-18 10:34:09','2012-06-18 16:34:09', "R1", 1);
+insert into flight_execution values(null,'2021-06-01 04:14:09 ','2021-06-01 10:14:09 ', "R2", 2);
+insert into flight_execution values(null,'2018-03-20 09:04:09 ','2018-03-20 14:04:09 ', "R3", 3);
+insert into flight_execution values(null,'2015-05-21 05:00:09 ','2015-05-21 11:00:09 ', "R4", 4);
+insert into flight_execution values(null,'2020-09-02 11:57:09 ','2020-09-02 13:57:09 ', "R5", 5);
+insert into flight_execution values(null,'2022-01-11 08:14:09 ','2022-01-11 16:14:09 ', "R6", 6);
+insert into flight_execution values(null,'2013-12-12 05:25:09 ','2013-12-12 13:25:09 ', "R7", 7);
+insert into flight_execution values(null,'2017-03-04 06:14:09 ','2017-03-04 10:14:09 ', "R8", 8);
+insert into flight_execution values(null,'2019-05-28 04:38:09 ','2019-05-28 23:38:09 ', "R9", 9);
+insert into flight_execution values(null,'2021-04-21 06:44:09 ','2021-04-21 08:44:09 ', "R10", 10);
+insert into flight_execution values(null,'2016-09-12 11:03:09','2016-09-12 11:33:09', "R1", 1);
+insert into flight_execution values(null,'2020-03-05 03:12:09 ','2020-03-05 05:12:09 ', "R2", 2);
+insert into flight_execution values(null,'2012-02-21 15:56:09 ','2012-02-21 21:56:09 ', "R3", 3);
+insert into flight_execution values(null,'2014-05-22 12:00:09 ','2014-05-22 18:00:09 ', "R4", 4);
+insert into flight_execution values(null,'2018-08-08 01:57:09 ','2018-08-08 09:57:09 ', "R5", 5);
+insert into flight_execution values(null,'2021-04-14 04:12:09 ','2021-04-14 08:12:09 ', "R6", 6);
+insert into flight_execution values(null,'2011-11-13 03:22:09 ','2011-11-13 06:22:09 ', "R7", 7);
+insert into flight_execution values(null,'2014-05-06 08:21:09 ','2014-05-06 015:21:09 ', "R8", 8);
+insert into flight_execution values(null,'2017-03-27 06:01:09 ','2017-03-27 012:01:09 ', "R9", 9);
+insert into flight_execution values(null,'2014-07-20 06:23:09 ','2014-07-20 10:23:09 ', "R10", 10);
+
 
 alter table flight_execution add constraint al_id_FK foreign key (airline_id) references airline(airline_id);
 alter table flight_execution add constraint flight_route_FK foreign key (flight_route) references flight_route(flight_route);
