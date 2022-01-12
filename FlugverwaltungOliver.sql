@@ -109,6 +109,29 @@ constraint flight_route_PK primary key(flight_route)
 alter table flight_route add constraint departure_airport_FK foreign key(departure_airport) references airport(airport_number);
 alter table flight_route add constraint arrival_airport_FK foreign key(arrival_airport) references airport(airport_number);
 
+insert into flight_route values("R1","AUT-520-282-164","EGY-238-842-732");
+insert into flight_route values("R2","GER-021-263-434","LUX-823-264-386");
+insert into flight_route values("R3","FRA-754-293-639","FIN-683-386-832");
+insert into flight_route values("R4","BRA-927-892-083","SWN-264-264-725");
+insert into flight_route values("R5","SWZ-739-535-929","NOR-958-246-475");
+insert into flight_route values("R6","AFG-567-835-923","USA-367-833-525");
+insert into flight_route values("R7","PAK-723-738-917","NIG-752-598-144");
+insert into flight_route values("R8","POR-936-674-246","KRO-745-725-264");
+insert into flight_route values("R9","CHI-275-862-812","BOS-136-264-386");
+insert into flight_route values("R10","TUK-923-433-723","KOL-192-134-147");
+insert into flight_route values("R11","KOL-192-134-147","TUK-923-433-723");
+insert into flight_route values("R12","BOS-136-264-386","CHI-275-862-812");
+insert into flight_route values("R13","KRO-745-725-264","POR-936-674-246");
+insert into flight_route values("R14","NIG-752-598-144","PAK-723-738-917");
+insert into flight_route values("R15","USA-367-833-525","AFG-567-835-923");
+insert into flight_route values("R16","NOR-958-246-475","SWZ-739-535-929");
+insert into flight_route values("R17","SWN-264-264-725","BRA-927-892-083");
+insert into flight_route values("R18","FIN-683-386-832","FRA-754-293-639");
+insert into flight_route values("R19","LUX-823-264-386","GER-021-263-434");
+insert into flight_route values("R20","EGY-238-842-732","AUT-520-282-164");
+
+
+
 create table staff(
 id_nr varchar(50) not null,
 f_name varchar(50) not null,
