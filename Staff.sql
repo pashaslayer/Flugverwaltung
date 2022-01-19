@@ -21,4 +21,4 @@ insert into staff values("G834721", "Batuhan", "Huber", "1982-3-15", 'm', "secur
 insert into staff values("L024824", "Felix", "Walter", "1966-4-5", 'm', "securityman", null);
 insert into staff values("E2842724", "Finn", "Kaiser", "1948-9-24", 'm', "airtrafficcontroller", null);
 insert into staff values("O470324", "Noah", "Roth", "1970-12-18", 'm', "airtrafficcontroller", null);
-insert into staff values("W2384084", "Fatma", "Winkler", "1991-2-30", 'w', "airtrafficcontroller", null);
+insert into staff values("W2384084", "Fatma", "Winkler", "1991-2-27", 'w', "airtrafficcontroller", null);
