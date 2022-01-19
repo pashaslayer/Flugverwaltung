@@ -1,0 +1,92 @@
+insert into address values(null, "Austria", "6020", "Innsbruck", "Fürstenweg", "180");
+insert into address values(null, "Germany", "12529", "Schönefeld", "Melli-Beese-Ring", "1");
+insert into address values(null, "France", "95700", "Paris", "Roissy-en-France", "5");
+insert into address values(null, "Brasil", "200000", "Rio de Janeiro", "Av. Vinte de Janeiro", "4");
+insert into address values(null, "Switzerland", "8058", "Kloten", "Klotenstraße", "5");
+insert into address values(null, "Afghanistan", "H666+H2F", "Kabul", "H666", "H2F");
+insert into address values(null, "Pakistan", "986532", "Karachi", "Airport Road", "3");
+insert into address values(null, "Portugal", "1700", "Lisbon", "International Airport Road", "008");
+insert into address values(null, "China", "72245", "Peking", "Shunyi District", "852");
+insert into address values(null, "Turkey", "34283", "Arnavutköy", "Terminal Cad", "No:1");
+insert into address values(null, "Colombia", "587473", "Antioquia", "Rionegro", "5");
+insert into address values(null, "Bosnia", "71000", "Sarajevo", "Kurta Schorka", "36");
+insert into address values(null, "Croatia", "51513", "Omišalj", "Hamec", "1");
+insert into address values(null, "Nigeria", "88725", "Zaria", "Tudan Wada", "810282");
+insert into address values(null, "USA", "11430", "NY", "Jamaica", "1");
+insert into address values(null, "Norway", "2061", "Gardermoen", "Edvard Munchs veg", "4");
+insert into address values(null, "Sweden", "190", "Stockholm", "Arlanda", "4");
+insert into address values(null, "Finland", "01531", "Vantaa", "Finland-Road", "8");
+insert into address values(null, "Luxembourg", "2632", "Luxembourg", "Rue de Trèves", "7");
+insert into address values(null, "Egypt", "8439", "El Nozha", "Oruba Road", "75");
+
+#id 21-40 staff
+insert into address values(null, "Austria", "6020", "Innsbruck", "Odorf Weg", "8");
+insert into address values(null, "Germany", "12529", "Köln", "Winterer Straße", "7");
+insert into address values(null, "France", "95700", "Paris", "Je-san-Loure", "13");
+insert into address values(null, "Brasil", "200000", "Rio de Janeiro", "Avenura de Frucito", "4");
+insert into address values(null, "Switzerland", "8058", "Kloten", "Klotenstraße", "5");
+insert into address values(null, "Afghanistan", "H666+H2F", "Kabul", "Afga Road", "J7I");
+insert into address values(null, "Pakistan", "986532", "Karachi", "Rachki", "3");
+insert into address values(null, "Portugal", "1700", "Lisbon", "Vamonos Road", "68");
+insert into address values(null, "China", "72245", "Peking", "Shengy District", "852");
+insert into address values(null, "Turkey", "34283", "Arnavutköy", "Temano Cad", "No:1");
+insert into address values(null, "Colombia", "587473", "Antioquia", "Rio de Magaro", "5");
+insert into address values(null, "Bosnia", "71000", "Sarajevo", "Kurvana Schorka", "36");
+insert into address values(null, "Croatia", "51513", "Omišalj", "Hemica", "1");
+insert into address values(null, "Nigeria", "88725", "Zaria", "Wadan i Kre", "810282");
+insert into address values(null, "USA", "11430", "NY", "Common Road", "1");
+insert into address values(null, "Norway", "2061", "Gardermoen", "Van Heeg Ler", "4");
+insert into address values(null, "Sweden", "190", "Stockholm", "Arlena", "4");
+insert into address values(null, "Finland", "01531", "Vantaa", "Finland-Avenue", "8");
+insert into address values(null, "Luxembourg", "2632", "Luxembourg", "Rue de Boron", "7");
+insert into address values(null, "Egypt", "8439", "El Nozha", "Kasacha Road", "75");
+
+#id 41-60 is customer
+insert into address values(null,"Canada","M1B", "Toronto","Alexander Street","13");
+insert into address values(null,"Canada","M1B", "Toronto","Colombium Street","14");
+insert into address values(null,"Canada","M1B", "Toronto","Creadium Street","15");
+insert into address values(null,"Austria","6060", "Hall","Bahnhofweg","20");
+insert into address values(null,"Austria","6020", "Innsbruck","Reichenauer Straße","18");
+insert into address values(null,"Austria","6380", "St.Johann","Reitham","7b");
+insert into address values(null,"Austria","6067", "Absam","Föhrenweg","5");
+insert into address values(null,"Austria","6063", "Rum","Erlenweg","15");
+insert into address values(null,"Austria","1014", "Favoriten","Jägerstraße","14");
+insert into address values(null,"Austria","6065", "Thaur","Reitererstraße","43");
+insert into address values(null,"Austria","6380", "St.Johann","Reitham","8b");
+insert into address values(null,"Austria","3498", "Valneer","Valneren","12");
+insert into address values(null,"Austria","5478", "Veit","Kapperlstraße","8");
+insert into address values(null,"Austria","9563", "Lohbach","Lohbacher Hauptstraße","4");
+insert into address values(null,"Austria","6380", "Bregenz","Bregenzerstraße","120a");
+insert into address values(null,"Canada","M1B", "Quebec","Bay Road","45");
+insert into address values(null,"Canada","M3O", "Motreal","Bay Street","28");
+insert into address values(null,"Canada","N4S", "Quebec","Orange Street","7");
+insert into address values(null,"Canada","P9W", "Montreal","Plumb Street","32");
+insert into address values(null,"Canada","V4E", "Quebec","Alexander Park","15");
+
+#id 61-80 is airline hq
+insert into address values(61, "Austria", "6112", "Wattens", "Salurnerstraße", "14");
+insert into address values(62, "Germany", "50212", "Dormund", "Felderweg", "25");
+insert into address values(63, "Luxemburg", "9122", "Bettemburg", "Bahnhhofstraße", "69");
+insert into address values(64, "Croatia", "69420", "Zadar", "Ljepi put", "33");
+insert into address values(65, "Bosinia", "8912", "Bjela", "Morski put", "34");
+insert into address values(66, "Egypt", "8911", "Gizeh", "Gizehstraße", "24");
+insert into address values(67, "Turkey", "7123", "Ankara", "Str dijital", "12");
+insert into address values(68, "Sweden", "8122", "Täby", "Riksväg", "2");
+insert into address values(69, "Finland", "8122", "Burd", "Gävsrik", "4");
+insert into address values(70, "Norway", "125332", "Darbisk", "tarbaska", "82");
+insert into address values(71, "Kolumbia", "2183", "Cali", "Karthelstraße", "3");
+insert into address values(72, "Brazil", "9122", "Rio", "Fusballsadionstraße", "5");
+insert into address values(73, "Portugal", "9122", "Porto", "Foz do douro", "12");
+insert into address values(74, "France", "91221", "Paris", "le´eifeltower", "91");
+insert into address values(75, "Switzerland", "91202", "Genf", "teilchenbeschleunigerstraße", "23");
+insert into address values(76, "Austria", "6060", "Hall", "Hallenweg", "12");
+insert into address values(77, "China", "01221", "Shang Chi", "Chilang hu", "82");
+insert into address values(78, "Pakistan", "91223", "Lahore", "Karakorum way", "62");
+insert into address values(79, "Germany", "81292", "Bayern", "Lederhosengasse", "5");
+insert into address values(80, "Austria", "6020", "tarenz", "Radlwegstraße", "22");
+
+#81-81 weiterführung staff
+insert into address values(null, "Germany", "846", "Cologne", "Kaiserstraße", "16");
+insert into address values(null, "Australia", "6029", "Kangaroonian", "Kangaroo-Avenue", "18");
+insert into address values(null, "Austria", "76561", "Pongau", "Salzkammerstraße", "34");
+insert into address values(null, "Luxembourg", "79645", "El Novonani", "Lo-vie-felle Road", "75");
