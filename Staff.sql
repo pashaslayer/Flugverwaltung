@@ -14,9 +14,9 @@ insert into staff values("T93248", "Antonia", "Kohl", "1980-8-2", 'w', "stewarde
 insert into staff values("E9139233", "Emilia", "Fischer", "1998-6-26", 'w', "stewardess", null);
 insert into staff values("I84724", "Magdalena", "Meyer", "1972-2-19", 'w', "stewardess", null);
 insert into staff values("P923742", "Elias", "Schulz", "1975-7-14", 'm', "steward", null);
-insert into staff values("C316189", "Mila", "Krüger", "1952-3-30", 'w', "putzkraft", null);
-insert into staff values("A82744", "Romy", "Jansen", "1984-1-29", 'w', "putzkraft", null);
-insert into staff values("B95371", "Leon", "Peters", "1991-12-2", 'm', "putzkraft", null);
+insert into staff values("C316189", "Mila", "Krüger", "1952-3-30", 'w', "cleaning-crew", null);
+insert into staff values("A82744", "Romy", "Jansen", "1984-1-29", 'w', "cleaning-crew", null);
+insert into staff values("B95371", "Leon", "Peters", "1991-12-2", 'm', "cleaning-crew", null);
 insert into staff values("G834721", "Batuhan", "Huber", "1982-3-15", 'm', "securityman", null);
 insert into staff values("L024824", "Felix", "Walter", "1966-4-5", 'm', "securityman", null);
 insert into staff values("E2842724", "Finn", "Kaiser", "1948-9-24", 'm', "airtrafficcontroller", null);
