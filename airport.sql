@@ -1,0 +1,21 @@
+insert into airport values("AUT-520-282-164", 1);
+insert into airport values("GER-021-263-434", 2);
+insert into airport values("FRA-754-293-639", 3);
+insert into airport values("BRA-927-892-083", 4);
+insert into airport values("SWZ-739-535-929", 5);
+insert into airport values("AFG-567-835-923", 6);
+insert into airport values("PAK-723-738-917", 7);
+insert into airport values("POR-936-674-246", 8);
+insert into airport values("CHI-275-862-812", 9);
+insert into airport values("TUK-923-433-723", 10);
+
+insert into airport values("KOL-192-134-147", 11);
+insert into airport values("BOS-136-264-386", 12);
+insert into airport values("KRO-745-725-264", 13);
+insert into airport values("NIG-752-598-144", 14);
+insert into airport values("USA-367-833-525", 15);
+insert into airport values("NOR-958-246-475", 16);
+insert into airport values("SWN-264-264-725", 17);
+insert into airport values("FIN-683-386-832", 18);
+insert into airport values("LUX-823-264-386", 19);
+insert into airport values("EGY-238-842-732", 20);
