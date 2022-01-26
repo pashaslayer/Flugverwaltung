@@ -143,3 +143,13 @@ create table flight_route(
 
 alter table flight_route add constraint departure_airport_FK foreign key(departure_airport) references airport(airport_number);
 alter table flight_route add constraint arrival_airport_FK foreign key(arrival_airport) references airport(airport_number);
+
+create table customer_address(
+id_nr varchar(50) not null,
+address_id int unsigned not null,
+
+constraint customer_address_PK primary key(id_nr, address_id)
+);
+
+alter table customer_address add constraint address_id_FK3 foreign key (address_id) references address(address_id);
+
