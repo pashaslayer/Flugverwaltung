@@ -1,4 +1,4 @@
-create database if not exists db_flughafenverwaltung collate utf8mb4_general_ci;
+create database if not exists db_flughafenverwaltung_g1 collate utf8mb4_general_ci;
 use db_flughafenverwaltung;
 #drop database db_flughafenverwaltung;
 #ghfd
@@ -160,8 +160,8 @@ alter table staff_address add constraint address_id_FK foreign key(address_id) r
 
 
 
-alter table flight_execution_costumer add constraint fe_id_FK foreign key(fe_id) references flight_execution(fe_id);
-alter table flight_execution_costumer add constraint ID_Nr_FK2 foreign key(ID_Nr) references costumer(ID_Nr);
+alter table flight_execution_customer add constraint fe_id_FK foreign key(fe_id) references flight_execution(fe_id);
+alter table flight_execution_customer add constraint ID_Nr_FK2 foreign key(ID_Nr) references customer(ID_Nr);
 
 
 
