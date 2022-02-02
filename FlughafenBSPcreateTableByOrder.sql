@@ -3,7 +3,6 @@ use db_flughafenverwaltung;
 #drop database db_flughafenverwaltung;
 #ghfd
 
-
 #ghfd
 
 
@@ -63,7 +62,7 @@ create table staff (
     
     constraint ID_Nr_PK primary key(ID_Nr)
 );
-create table costumer(
+create table customer(
 	ID_Nr varchar(50) not null,
     f_name varchar(50) not null,
     l_name varchar(50) not null,
@@ -102,7 +101,7 @@ create table flight_execution(
     
     constraint fe_id_PK primary key(fe_id)
 );
-create table flight_execution_costumer(
+create table flight_execution_customer(
 	fe_id int unsigned not null,
     ID_Nr varchar(50) not null,
     
