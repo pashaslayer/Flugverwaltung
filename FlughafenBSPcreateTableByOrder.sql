@@ -47,7 +47,7 @@ create table airport_time_to_fly(
     constraint attf_PK primary key(airport_number, ttf_id)
 );
 create table pilot(
-	pilot_id int auto_increment not null,
+	ID_Nr varchar(50) not null,
     enddate_of_flying_license date not null,
     
     constraint pilot_id_PK primary key(pilot_id)
@@ -59,11 +59,10 @@ create table staff (
     birthdate date not null,
     gender char(1) not null,
     type_of_work varchar(50),
-    pilot_id int null,
     
     constraint ID_Nr_PK primary key(ID_Nr)
 );
-create table costumer(
+create table customer(
 	ID_Nr varchar(50) not null,
     f_name varchar(50) not null,
     l_name varchar(50) not null,
@@ -102,7 +101,7 @@ create table flight_execution(
     
     constraint fe_id_PK primary key(fe_id)
 );
-create table flight_execution_costumer(
+create table flight_execution_customer(
 	fe_id int unsigned not null,
     ID_Nr varchar(50) not null,
     
@@ -129,7 +128,7 @@ create table flight_execution_staff(
 
 
 
-alter table staff add constraint pilot_id_FK foreign key(pilot_id) references pilot(pilot_id);
+alter table pilot add constraint pilot_id_FK foreign key(ID_Nr) references staff(ID_Nr);
 
 
 
@@ -161,8 +160,8 @@ alter table staff_address add constraint address_id_FK foreign key(address_id) r
 
 
 
-alter table flight_execution_costumer add constraint fe_id_FK foreign key(fe_id) references flight_execution(fe_id);
-alter table flight_execution_costumer add constraint ID_Nr_FK2 foreign key(ID_Nr) references costumer(ID_Nr);
+alter table flight_execution_customer add constraint fe_id_FK foreign key(fe_id) references flight_execution(fe_id);
+alter table flight_execution_customer add constraint ID_Nr_FK2 foreign key(ID_Nr) references customer(ID_Nr);
 
 
 
