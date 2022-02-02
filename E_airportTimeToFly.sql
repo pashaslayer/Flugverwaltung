@@ -1,0 +1,21 @@
+insert into airport_time_to_fly values("AFG-567-835-923", 5);
+insert into airport_time_to_fly values("GER-021-263-434", 6);
+insert into airport_time_to_fly values("FRA-754-293-639", 7);
+insert into airport_time_to_fly values("POR-936-674-246", 9);
+insert into airport_time_to_fly values("CHI-275-862-812", 2);
+insert into airport_time_to_fly values("TUK-923-433-723", 3);
+insert into airport_time_to_fly values("AUT-520-282-164", 4);
+insert into airport_time_to_fly values("SWZ-739-535-929", 1);
+insert into airport_time_to_fly values("BRA-927-892-083", 8);
+insert into airport_time_to_fly values("AFG-567-835-923", 10);
+insert into airport_time_to_fly values("KOL-192-134-147", 11);
+insert into airport_time_to_fly values("BOS-136-264-386", 12);
+insert into airport_time_to_fly values("KRO-745-725-264", 13);
+insert into airport_time_to_fly values("NIG-752-598-144", 14);
+insert into airport_time_to_fly values("USA-367-833-525", 15);
+insert into airport_time_to_fly values("NOR-958-246-475", 16);
+insert into airport_time_to_fly values("SWN-264-264-725", 17);
+insert into airport_time_to_fly values("FIN-683-386-832", 18);
+insert into airport_time_to_fly values("LUX-823-264-386", 19);
+insert into airport_time_to_fly values("EGY-238-842-732", 20);
+
