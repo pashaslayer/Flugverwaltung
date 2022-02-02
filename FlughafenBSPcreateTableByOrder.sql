@@ -1,4 +1,4 @@
-create database if not exists db_flughafenverwaltung collate utf8mb4_general_ci;
+create database if not exists db_flughafenverwaltung_g1 collate utf8mb4_general_ci;
 use db_flughafenverwaltung;
 # drop database db_flughafenverwaltung;
 
