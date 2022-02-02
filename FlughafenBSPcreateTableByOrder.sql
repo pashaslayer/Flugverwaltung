@@ -1,15 +1,8 @@
 create database if not exists db_flughafenverwaltung_g1 collate utf8mb4_general_ci;
 use db_flughafenverwaltung;
-<<<<<<< HEAD
 #drop database db_flughafenverwaltung;
-#ghfd
-
-#ghfd
 
 
-=======
-# drop database db_flughafenverwaltung;
->>>>>>> 4b57abc3ba9f91a0025036653eacf972c5b229e5
 
 create table address(
 	address_id int unsigned auto_increment not null,
@@ -53,7 +46,7 @@ create table pilot(
 	ID_Nr varchar(50) not null,
     enddate_of_flying_license date not null,
     
-    constraint pilot_id_PK primary key(pilot_id)
+    constraint ID_Nr_PK2 primary key(ID_Nr)
 );
 create table staff (
 	ID_Nr varchar(50) not null,
